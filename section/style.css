@@ -208,6 +208,8 @@ body {
   height: max-content;
   border-radius: 14px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 15px;
   background-color: rgba(40, 40, 40, 1);
   padding: 10px 20px;
@@ -384,8 +386,6 @@ body {
   .box,
   .box1 {
     flex-direction: column;
-    width: 100%;
-    height: auto;
   }
 
   .nav {
