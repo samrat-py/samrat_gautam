@@ -383,7 +383,11 @@ body {
     border-radius: 16px;
   }
 
-  .box,
+  .box {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
   .box1 {
     flex-direction: column;
   }
